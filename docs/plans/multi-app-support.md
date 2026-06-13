@@ -61,7 +61,7 @@ headers untouched. Any multi-tenant design we build should follow the same grain
 Run one instance per app. No code changes required.
 
 | Setting | Per-app value |
-|---|---|
+| --- | --- |
 | `EXPO_APP_ID` | required, different per app |
 | `S3_KEY_PREFIX` | recommended if sharing one S3 bucket (`internal/bucket/bucket.go:68`) |
 | `LOCAL_BUCKET_BASE_PATH` / `GCS_BUCKET_NAME` | separate per app (no prefix support) |

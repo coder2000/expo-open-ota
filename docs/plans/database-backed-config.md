@@ -47,7 +47,7 @@ backend interface** (see [Tradeoff](#the-core-tradeoff)).
 Not all env vars can or should move to a DB:
 
 | Category | Examples | Move to DB? |
-|---|---|---|
+| --- | --- | --- |
 | **Bootstrap** (needed to reach the DB) | DB connection string, `PORT` | No — chicken-and-egg |
 | **Infra secrets** | AWS creds, signing keys, `JWT_SECRET`, Redis password | No — secrets belong in env / secret-manager, not app rows |
 | **Storage/infra wiring** | `STORAGE_MODE`, bucket names, `CACHE_MODE`, `REDIS_*`, CDN config | Optional — usually kept as deploy-time env |
