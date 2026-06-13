@@ -3,6 +3,7 @@
 **Status:** Draft
 **Author:** (tbd)
 **Date:** 2026-06-13
+**Related:** [Database-Backed Configuration & Auth](./database-backed-config.md)
 
 ## Summary
 
